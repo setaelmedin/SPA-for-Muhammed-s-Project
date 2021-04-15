@@ -1,0 +1,16 @@
+<mat-drawer-container class="example-container" >
+    <mat-drawer mode="side" opened>
+        <div class="navigationLinks">
+            <button mat-raised-button color="primary" routerLink='./home'>Home</button>
+            <button mat-raised-button color="primary" routerLink='./users'>Users</button>
+            <button mat-raised-button color="primary" routerLink='./blogs'>Blogs</button>
+            <button mat-raised-button color="primary" routerLink='./settings'>Settings</button>
+            <button mat-raised-button color="primary" routerLink='./info'>Info</button>
+        </div>
+    </mat-drawer>
+    <mat-drawer-content>
+        <router-outlet></router-outlet>
+    </mat-drawer-content>
+</mat-drawer-container>
+
+
